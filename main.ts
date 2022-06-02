@@ -1,10 +1,6 @@
 import {
-	App,
-	MarkdownPostProcessorContext, MarkdownPreviewView, MarkdownRenderer,
-	parseYaml,
+	MarkdownPostProcessorContext,
 	Plugin,
-	PluginSettingTab,
-	Setting,
 } from "obsidian";
 import {CustomBlockRenderer} from "./CustomBlockRenderer";
 
